@@ -48,7 +48,6 @@ def rpsls(player_choice):
 
 
     
-# test your code - THESE CALLS MUST BE PRESENT IN YOUR SUBMITTED CODE
 rpsls("rock")
 rpsls("Spock")
 rpsls("paper")
