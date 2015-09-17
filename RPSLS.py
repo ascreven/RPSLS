@@ -33,11 +33,11 @@ def number_to_name(number):
 
 def rpsls(player_choice):
     print
-    print "Player chooses",player_choice
+    print "Player chooses ",player_choice
     player_number = name_to_number(player_choice)
     comp_number = random.randrange(0,4)
     comp_choice = number_to_name(comp_number)
-    print "Computer chooses",comp_choice
+    print "Computer chooses ",comp_choice
     winner=(player_number-comp_number)%5
     if (winner==2 or winner==4):
         print "Player wins!"
